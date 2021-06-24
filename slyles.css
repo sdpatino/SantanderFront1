@@ -64,7 +64,6 @@
 
       .contentvideo {display: flexbox;
       }
-      
 
       .explanatory-video {
         display: flex;
@@ -122,9 +121,34 @@
             color: #fff;
             background-color: #025157;
         }
-    </style>
+  .features{
+    display: grid;
+    /*gird grid-template: columns: 1000px 600px; */
+    /*gird grid-template: columns: repeat (2,600px ); */
+    /*gird grid-template: columns: repeat 1200px 1fr; */
+    grid-template-columns: 1fr 1fr;
+  }
 
+  .feature-art {
+    background-color: rgb(143, 102, 136);
+    margin: 10px;
+    width: 40%;
+    height: 50%;
+  }
 
+  .features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 1200px;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .features {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 600px);
+  }
+  
+   
     
     <!-- Desde archivo externo -->
     <link rel="stylesheet" href="slyles.css">
