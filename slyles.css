@@ -3,6 +3,106 @@
     <!-- Desde el mismo html -->
     
     <style>
+
+    .header {
+        display: inline-block;
+        margin-top: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 16px;
+        vertical-align: middle;
+        height: 45px;
+        line-height: 45px;
+        font-family: sans-serif;
+      }
+      
+      .navbar {
+        width: 70%;
+        text-align: center;
+        color: #025157;
+        font-weight: 500;
+      }
+      
+      .menu-item {
+        display: inline;
+        margin-right: 25px;
+        margin-left: 25px;
+      }
+      .promo {
+        display: flexbox;
+        width: 30%;
+        margin: 100% auto;
+        align-items: center;
+      }
+      .publish {
+        /* container styles if any */
+      }
+  
+      .publish h3 {
+        font-family: "Alegreya", serif;
+        font-size: 15px;
+        line-height: 48px;
+        color: #025157;
+      }
+      
+      .publish > p {
+        font-size: 20px;
+        color: #343434;
+        line-height: 1.5;
+        margin-bottom: 10px;
+      }
+      
+      .publish > form {
+        display: flex
+        ;
+      }
+      
+      .publish > form p {
+        color: #025157;
+        margin-right: 18px;
+      }
+
+      .contentvideo {display: flexbox;
+      }
+      
+
+      .explanatory-video {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .explanatory-video img {
+        width: 120px;
+        margin-top: 10px;
+      }
+      
+      .actions {
+        width: 15%;
+        text-align: right;
+        font-size: 14px;
+        font-weight: 600;
+      }
+      
+      .actions > * {
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+      
+      .actions a {
+        color: #67b54b;
+      }
+      
+      .actions button {
+        color: white;
+        background-color: #67b54b;
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border: 0;
+        border-radius: 5px;
+      }
     body {
             background-color: #fffbf7;
         }
@@ -23,6 +123,11 @@
             background-color: #025157;
         }
     </style>
+
+
+    
     <!-- Desde archivo externo -->
     <link rel="stylesheet" href="slyles.css">
 </head>
+
+
